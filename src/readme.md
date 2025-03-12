@@ -1,12 +1,25 @@
-## Fork
+# Examen 2º Evaluación (ramas)
 
-Es importante, a la hora de hacer el fork, desmarcar la opción que dice \`Copy the main branch only\`.
+**Autor:** Daniel Rodríguez Tato
 
-**Atención:** Revisando el código de la interfaz, te das cuenta de que el último commit tiene código que no debe incluirse. Decides no mezclar ese commit en la versión final.
+---
 
-1. Creamos el issue y lo llamamos \`Deshacer último commit de la rama interface\` y me lo asigno a mí mismo. GitHub ya le asigna el \#1.
-2. Creamos otro issue con el \#2 y lo cerramos con un commit en el que juntamos todas las ramas menos la llamada \`readme\`.
-3. Hacemos el merge squash.
-4. Antes de hacer el push, le ponemos una etiqueta que llamaremos \`v1.0\`.
+## Instrucciones Importantes
 
-Una vez terminado con esto en GitHub, crearemos la release que llamaremos version final 1.0 y listo.
+**Nota:** Al hacer el fork, desmarcar la opción que dice "Copy the main branch only".
+
+### Deshaciendo el Último Commit de la Rama `interface`
+
+1. Crear un issue llamado "Deshacer último commit de la rama interface" y asignárselo a uno mismo. GitHub le asignará el número `#1`.
+2. Para eliminar el commit, ir al apartado de Git en IntelliJ, hacer clic derecho sobre el commit que se desea eliminar y seleccionar `Revert commit`.
+
+### Creación de un Issue y Cierre con Commit
+
+1. Crear otro issue con el número `#2`.
+2. Cerrar el issue con un commit en el que se junten todas las ramas, excepto la llamada `readme`.
+3. Realizar un merge squash.
+4. Antes de hacer el push, etiquetar con `v1.0`.
+
+### Finalización
+
+Una vez terminado, en GitHub crear la release y listo.
